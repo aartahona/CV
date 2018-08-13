@@ -19,7 +19,7 @@ body {
     border-radius: 25px;
    /* background: rgb(66, 85, 73);*/
     overflow: auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: auto;
     min-height: 50%;
     position: fixed;
@@ -263,4 +263,7 @@ body {
 .button:hover{
   background-color: white;
   color:#4d606e;
+}
+#indice{
+    overflow: auto;
 }
