@@ -1,0 +1,263 @@
+body {
+    /*background: #506379;*/
+    /*background: #769781;*/
+    background: #d3d4d8;
+    color: #4d606e;
+    font-family: "Roboto", sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
+  }
+  
+  #perfil {
+    float: left;
+    
+    margin-top: 1px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 10px;
+    width: 27%;
+    background: #4d606e;
+    border-radius: 25px;
+   /* background: rgb(66, 85, 73);*/
+    overflow: auto;
+    position: fixed;
+  }
+  #fixed{
+    float: left;
+    
+    margin-top: 5px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 10px;
+    width: 27%;
+    background: #d3d4d8;
+    color: #d3d4d8;
+    border-radius: 25px;
+   /* background: rgb(66, 85, 73);*/
+    overflow: auto;
+  }
+  p{
+    margin-bottom: 0px;
+  }
+  b{
+    color: #4d606e;
+  }
+  li{
+    padding: 1%; 
+  }
+  h5{
+    margin: 0px;
+  }
+  a{
+    margin: 0;
+  }
+  
+  #contenido{
+    float:left;
+    width:51%;
+    margin-bottom:5%;
+  }
+  #nombre{
+    background: #4d606e;
+    
+    /*background: rgb(66, 85, 73);*/
+    color: white;
+    width:100%;
+    text-align: center;
+  }
+  #imgperfil{
+    background: white;
+    padding-top: 5%; 
+    padding-bottom: 5%;
+
+  }
+  #foto{
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
+  #titulo{
+    color: #4d606e;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #datosperfil{
+    background: #f4f7f7;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left:5%;
+    padding-right: 5%;
+  }
+
+  #experiencia {
+    float: left;
+    margin-top: 5px;
+    margin-right: 1.5%;
+    margin-left: 6.5%;
+    margin-bottom: 10px;
+    width: 100%;
+    background: #f4f7f7;
+    border-radius: 2px;
+    overflow-y: auto;
+    padding-bottom: 5%;
+    
+  }
+    #educacion
+  {
+    float: left;
+    margin-top: 5px;
+    margin-right: 1.5%;
+    margin-left: 6.5%;
+    margin-bottom: 10px;
+    padding-bottom: 4%;
+    width: 100%;
+    background: #f4f7f7;
+    border-radius: 2px;
+    overflow-y: auto;
+  }
+  #habilidades {
+    float: left;
+    margin-top: 5px;
+    margin-right: 1.5%;
+    margin-left: 6.5%;
+    margin-bottom: 10px;
+    width: 100%;
+    background: #f4f7f7;
+    border-radius: 2px;
+    overflow-y: auto;
+  }
+  #proyectos {
+    float: left;
+    margin-top: 5px;
+    margin-right: 1.5%;
+    margin-left: 6.5%;
+    margin-bottom: 10px;
+    width: 100%;
+    /*background: #4d606e;*/
+    background: #f4f7f7;
+    border-radius: 2px;
+    overflow-y: auto;
+  }
+  .puesto{
+    background: #f4f7f7;
+    padding:4%;
+    padding-bottom:0%;
+       
+  }
+  .descripcion{
+    background: #f4f7f7;
+    padding:4%;
+    margin:0px;
+    color: #4d606e;
+    padding-bottom: 0%;
+    padding-right: 0%;
+       
+  }
+  .curso{
+    background: #f4f7f7;
+    padding:4%;
+    padding-bottom:2%;
+       
+  }
+  .habilidades{
+    background: #f4f7f7;
+    padding:4%;
+    padding-bottom:2%;
+    padding-top:2%;
+    padding-left: 8%;
+    padding-right: 6%;
+    color: #4d606e;
+       
+  }
+  .proyectos{
+    background: #f4f7f7;
+   /* padding:4%;
+    padding-bottom:2%;*/
+
+       
+  }
+
+  .titpuesto{
+    margin-top: 0px;
+    border: 0px;
+    border-bottom: solid;
+    border-color: #4d606e;
+    font-size: 25px;
+    margin-bottom: 3%;
+  }
+  
+  .empresa{
+    font-size: 18px;
+  }
+  .periodo{
+    font-size: 14px;
+  }
+  .titcontenidos{
+    background: #4d606e;
+    color: white;
+    text-align: center;
+    margin:0px;
+    padding-top: 2%;
+    padding-bottom:2%;
+    /*font-family: 'Heebo', sans-serif;*/
+    font-size: 30px;
+  }
+  .instituto{
+    margin-top: 0px;
+    border: 0px;
+    border-bottom: solid;
+    border-color: #4d606e;
+    font-size: 25px;
+    margin-bottom: 3%;
+    
+  }
+  .profesion{
+    font-size: 18px;
+    margin-bottom: 1%;
+  }
+  .ubicacion{
+    font-size: 14px;
+  }
+  .descripcioneducacion{
+    float: left;
+    width: 50%;
+    
+    margin:0;
+  }
+  .logoinstituto{
+    float:left;
+    width: 50%;
+    margin:0;
+    
+  }
+  .imginstituto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .icons{
+    background: #f4f7f7;
+    float: left;
+    width: 150px;
+    height: 150px;
+  
+  }
+  
+.button {
+  background-color: #4d606e;
+  color: white;
+  display: block;
+  padding-top: 7px;
+  padding-bottom:7px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: white;
+  color:#4d606e;
+}
