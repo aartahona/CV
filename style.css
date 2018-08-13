@@ -19,7 +19,8 @@ body {
     border-radius: 25px;
    /* background: rgb(66, 85, 73);*/
     overflow: auto;
-    overflow-y: scroll; 
+    overflow-y: scroll;
+    height: auto;
     min-height: 100%;
     position: fixed;
   }
